@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TOP\\Desktop\\rest-api\\StudentApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19B975E0-3488-46AD-BB64-CDC50E97D7F9}|..\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj|c:\\users\\top\\desktop\\rest-api\\studentdataaccesslayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2CF77A2-9221-487E-938B-48C82BABDFA3}|..\\StudentBussinessLayer\\StudentBussinessLayer.csproj|c:\\users\\top\\desktop\\rest-api\\studentbussinesslayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TOP\\Desktop\\rest-api\\StudentDataAccessLayer\\Program.cs",
+              "RelativeDocumentMoniker": "..\\StudentDataAccessLayer\\Program.cs",
+              "ToolTip": "C:\\Users\\TOP\\Desktop\\rest-api\\StudentDataAccessLayer\\Program.cs",
+              "RelativeToolTip": "..\\StudentDataAccessLayer\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T04:04:26.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TOP\\Desktop\\rest-api\\StudentBussinessLayer\\Program.cs",
+              "RelativeDocumentMoniker": "..\\StudentBussinessLayer\\Program.cs",
+              "ToolTip": "C:\\Users\\TOP\\Desktop\\rest-api\\StudentBussinessLayer\\Program.cs",
+              "RelativeToolTip": "..\\StudentBussinessLayer\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T04:03:50.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
