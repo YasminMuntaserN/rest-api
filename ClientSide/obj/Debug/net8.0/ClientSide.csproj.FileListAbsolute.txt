@@ -1,0 +1,29 @@
+C:\Users\TOP\Desktop\APIs Course\ClientSide\bin\Debug\net8.0\ClientSide.exe
+C:\Users\TOP\Desktop\APIs Course\ClientSide\bin\Debug\net8.0\ClientSide.deps.json
+C:\Users\TOP\Desktop\APIs Course\ClientSide\bin\Debug\net8.0\ClientSide.runtimeconfig.json
+C:\Users\TOP\Desktop\APIs Course\ClientSide\bin\Debug\net8.0\ClientSide.dll
+C:\Users\TOP\Desktop\APIs Course\ClientSide\bin\Debug\net8.0\ClientSide.pdb
+C:\Users\TOP\Desktop\APIs Course\ClientSide\obj\Debug\net8.0\ClientSide.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TOP\Desktop\APIs Course\ClientSide\obj\Debug\net8.0\ClientSide.AssemblyInfoInputs.cache
+C:\Users\TOP\Desktop\APIs Course\ClientSide\obj\Debug\net8.0\ClientSide.AssemblyInfo.cs
+C:\Users\TOP\Desktop\APIs Course\ClientSide\obj\Debug\net8.0\ClientSide.csproj.CoreCompileInputs.cache
+C:\Users\TOP\Desktop\APIs Course\ClientSide\obj\Debug\net8.0\ClientSide.dll
+C:\Users\TOP\Desktop\APIs Course\ClientSide\obj\Debug\net8.0\refint\ClientSide.dll
+C:\Users\TOP\Desktop\APIs Course\ClientSide\obj\Debug\net8.0\ClientSide.pdb
+C:\Users\TOP\Desktop\APIs Course\ClientSide\obj\Debug\net8.0\ClientSide.genruntimeconfig.cache
+C:\Users\TOP\Desktop\APIs Course\ClientSide\obj\Debug\net8.0\ref\ClientSide.dll
+C:\Users\TOP\Desktop\rest-api\ClientSide\bin\Debug\net8.0\ClientSide.exe
+C:\Users\TOP\Desktop\rest-api\ClientSide\bin\Debug\net8.0\ClientSide.deps.json
+C:\Users\TOP\Desktop\rest-api\ClientSide\bin\Debug\net8.0\ClientSide.runtimeconfig.json
+C:\Users\TOP\Desktop\rest-api\ClientSide\bin\Debug\net8.0\ClientSide.dll
+C:\Users\TOP\Desktop\rest-api\ClientSide\bin\Debug\net8.0\ClientSide.pdb
+C:\Users\TOP\Desktop\rest-api\ClientSide\obj\Debug\net8.0\ClientSide.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TOP\Desktop\rest-api\ClientSide\obj\Debug\net8.0\ClientSide.AssemblyInfoInputs.cache
+C:\Users\TOP\Desktop\rest-api\ClientSide\obj\Debug\net8.0\ClientSide.AssemblyInfo.cs
+C:\Users\TOP\Desktop\rest-api\ClientSide\obj\Debug\net8.0\ClientSide.csproj.CoreCompileInputs.cache
+C:\Users\TOP\Desktop\rest-api\ClientSide\obj\Debug\net8.0\ClientSide.sourcelink.json
+C:\Users\TOP\Desktop\rest-api\ClientSide\obj\Debug\net8.0\ClientSide.dll
+C:\Users\TOP\Desktop\rest-api\ClientSide\obj\Debug\net8.0\refint\ClientSide.dll
+C:\Users\TOP\Desktop\rest-api\ClientSide\obj\Debug\net8.0\ClientSide.pdb
+C:\Users\TOP\Desktop\rest-api\ClientSide\obj\Debug\net8.0\ClientSide.genruntimeconfig.cache
+C:\Users\TOP\Desktop\rest-api\ClientSide\obj\Debug\net8.0\ref\ClientSide.dll
