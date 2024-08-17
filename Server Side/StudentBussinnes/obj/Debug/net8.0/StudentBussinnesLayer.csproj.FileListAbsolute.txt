@@ -1,0 +1,31 @@
+C:\Users\TOP\Desktop\Test\StudentBussinnes\obj\Debug\net8.0\StudentBussinnesLayer.csproj.AssemblyReference.cache
+C:\Users\TOP\Desktop\Test\StudentBussinnes\obj\Debug\net8.0\StudentBussinnesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TOP\Desktop\Test\StudentBussinnes\obj\Debug\net8.0\StudentBussinnesLayer.AssemblyInfoInputs.cache
+C:\Users\TOP\Desktop\Test\StudentBussinnes\obj\Debug\net8.0\StudentBussinnesLayer.AssemblyInfo.cs
+C:\Users\TOP\Desktop\Test\StudentBussinnes\obj\Debug\net8.0\StudentBussinnesLayer.csproj.CoreCompileInputs.cache
+C:\Users\TOP\Desktop\Test\StudentBussinnes\bin\Debug\net8.0\StudentBussinnesLayer.deps.json
+C:\Users\TOP\Desktop\Test\StudentBussinnes\bin\Debug\net8.0\StudentBussinnesLayer.dll
+C:\Users\TOP\Desktop\Test\StudentBussinnes\bin\Debug\net8.0\StudentBussinnesLayer.pdb
+C:\Users\TOP\Desktop\Test\StudentBussinnes\bin\Debug\net8.0\StudentDataAccessLayer.dll
+C:\Users\TOP\Desktop\Test\StudentBussinnes\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+C:\Users\TOP\Desktop\Test\StudentBussinnes\obj\Debug\net8.0\StudentB.6989D906.Up2Date
+C:\Users\TOP\Desktop\Test\StudentBussinnes\obj\Debug\net8.0\StudentBussinnesLayer.dll
+C:\Users\TOP\Desktop\Test\StudentBussinnes\obj\Debug\net8.0\refint\StudentBussinnesLayer.dll
+C:\Users\TOP\Desktop\Test\StudentBussinnes\obj\Debug\net8.0\StudentBussinnesLayer.pdb
+C:\Users\TOP\Desktop\Test\StudentBussinnes\obj\Debug\net8.0\ref\StudentBussinnesLayer.dll
+C:\Users\TOP\Desktop\rest-api\Server Side\StudentBussinnes\bin\Debug\net8.0\StudentBussinnesLayer.deps.json
+C:\Users\TOP\Desktop\rest-api\Server Side\StudentBussinnes\bin\Debug\net8.0\StudentBussinnesLayer.dll
+C:\Users\TOP\Desktop\rest-api\Server Side\StudentBussinnes\bin\Debug\net8.0\StudentBussinnesLayer.pdb
+C:\Users\TOP\Desktop\rest-api\Server Side\StudentBussinnes\bin\Debug\net8.0\StudentDataAccessLayer.dll
+C:\Users\TOP\Desktop\rest-api\Server Side\StudentBussinnes\bin\Debug\net8.0\StudentDataAccessLayer.pdb
+C:\Users\TOP\Desktop\rest-api\Server Side\StudentBussinnes\obj\Debug\net8.0\StudentBussinnesLayer.csproj.AssemblyReference.cache
+C:\Users\TOP\Desktop\rest-api\Server Side\StudentBussinnes\obj\Debug\net8.0\StudentBussinnesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TOP\Desktop\rest-api\Server Side\StudentBussinnes\obj\Debug\net8.0\StudentBussinnesLayer.AssemblyInfoInputs.cache
+C:\Users\TOP\Desktop\rest-api\Server Side\StudentBussinnes\obj\Debug\net8.0\StudentBussinnesLayer.AssemblyInfo.cs
+C:\Users\TOP\Desktop\rest-api\Server Side\StudentBussinnes\obj\Debug\net8.0\StudentBussinnesLayer.csproj.CoreCompileInputs.cache
+C:\Users\TOP\Desktop\rest-api\Server Side\StudentBussinnes\obj\Debug\net8.0\StudentBussinnesLayer.sourcelink.json
+C:\Users\TOP\Desktop\rest-api\Server Side\StudentBussinnes\obj\Debug\net8.0\StudentB.6989D906.Up2Date
+C:\Users\TOP\Desktop\rest-api\Server Side\StudentBussinnes\obj\Debug\net8.0\StudentBussinnesLayer.dll
+C:\Users\TOP\Desktop\rest-api\Server Side\StudentBussinnes\obj\Debug\net8.0\refint\StudentBussinnesLayer.dll
+C:\Users\TOP\Desktop\rest-api\Server Side\StudentBussinnes\obj\Debug\net8.0\StudentBussinnesLayer.pdb
+C:\Users\TOP\Desktop\rest-api\Server Side\StudentBussinnes\obj\Debug\net8.0\ref\StudentBussinnesLayer.dll

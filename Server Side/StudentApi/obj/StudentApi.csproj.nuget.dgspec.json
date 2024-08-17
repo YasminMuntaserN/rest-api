@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TOP\\Desktop\\rest-api\\StudentApi\\StudentApi.csproj": {}
+    "C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentApi\\StudentApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TOP\\Desktop\\rest-api\\StudentApi\\StudentApi.csproj": {
+    "C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentApi\\StudentApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TOP\\Desktop\\rest-api\\StudentApi\\StudentApi.csproj",
+        "projectUniqueName": "C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentApi\\StudentApi.csproj",
         "projectName": "StudentApi",
-        "projectPath": "C:\\Users\\TOP\\Desktop\\rest-api\\StudentApi\\StudentApi.csproj",
+        "projectPath": "C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentApi\\StudentApi.csproj",
         "packagesPath": "C:\\Users\\TOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TOP\\Desktop\\rest-api\\StudentApi\\obj\\",
+        "outputPath": "C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\TOP\\Desktop\\rest-api\\StudentBussinessLayer\\StudentBussinessLayer.csproj": {
-                "projectPath": "C:\\Users\\TOP\\Desktop\\rest-api\\StudentBussinessLayer\\StudentBussinessLayer.csproj"
+              "C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentBussinnes\\StudentBussinnesLayer.csproj": {
+                "projectPath": "C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentBussinnes\\StudentBussinnesLayer.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\TOP\\Desktop\\rest-api\\StudentBussinessLayer\\StudentBussinessLayer.csproj": {
+    "C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentBussinnes\\StudentBussinnesLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TOP\\Desktop\\rest-api\\StudentBussinessLayer\\StudentBussinessLayer.csproj",
-        "projectName": "StudentBussinessLayer",
-        "projectPath": "C:\\Users\\TOP\\Desktop\\rest-api\\StudentBussinessLayer\\StudentBussinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentBussinnes\\StudentBussinnesLayer.csproj",
+        "projectName": "StudentBussinnesLayer",
+        "projectPath": "C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentBussinnes\\StudentBussinnesLayer.csproj",
         "packagesPath": "C:\\Users\\TOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TOP\\Desktop\\rest-api\\StudentBussinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentBussinnes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,8 +103,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\TOP\\Desktop\\rest-api\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\TOP\\Desktop\\rest-api\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj"
+              "C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentDataAccess\\StudentDataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentDataAccess\\StudentDataAccessLayer.csproj"
               }
             }
           }
@@ -143,14 +143,14 @@
         }
       }
     },
-    "C:\\Users\\TOP\\Desktop\\rest-api\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj": {
+    "C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentDataAccess\\StudentDataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TOP\\Desktop\\rest-api\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentDataAccess\\StudentDataAccessLayer.csproj",
         "projectName": "StudentDataAccessLayer",
-        "projectPath": "C:\\Users\\TOP\\Desktop\\rest-api\\StudentDataAccessLayer\\StudentDataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentDataAccess\\StudentDataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\TOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TOP\\Desktop\\rest-api\\StudentDataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -184,6 +184,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

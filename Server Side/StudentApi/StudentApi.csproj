@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StudentBussinessLayer\StudentBussinessLayer.csproj" />
+    <ProjectReference Include="..\StudentBussinnes\StudentBussinnesLayer.csproj" />
   </ItemGroup>
 
 </Project>
