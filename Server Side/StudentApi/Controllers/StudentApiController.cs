@@ -22,5 +22,20 @@ namespace WebApplication1.Controllers
             }
             return Ok(StudentsList); // Returns the list of students.
         }
+
+
+        [HttpGet("Passed", Name = "GetAllPassedStudents")] // Marks this method to respond to HTTP GET requests.
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        //here we used StudentDTO
+        public ActionResult<IEnumerable<StudentDTO>> GetAllPassedStudents() // Define a method to get all Passed students.
+        {
+            List<StudentDTO> StudentsList = StudentBusinessLayer.Student.GetAllPassedStudents();
+            if (StudentsList.Count == 0)
+            {
+                return NotFound("No Passed Students Found!");
+            }
+            return Ok(StudentsList); // Returns the list of students.
+        }
     }
 }

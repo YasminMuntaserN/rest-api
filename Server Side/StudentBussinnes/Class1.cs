@@ -33,6 +33,11 @@ namespace StudentBusinessLayer
             return StudentData.GetAllStudents();
         }
 
+        public static List<StudentDTO> GetAllPassedStudents()
+        {
+            return StudentData.GetAllPassedStudents();
+        }
+
     }
 }
 
