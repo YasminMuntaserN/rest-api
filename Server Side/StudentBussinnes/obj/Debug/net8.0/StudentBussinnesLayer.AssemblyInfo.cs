@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentBussinnesLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07867a21795e6e7c9065a04f8412918408e07135")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee1f48e45a61a6d9231365d4e920f8299123f2b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudentBussinnesLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudentBussinnesLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

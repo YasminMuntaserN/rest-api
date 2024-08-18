@@ -42,6 +42,21 @@ namespace StudentBusinessLayer
         {
             return StudentData.GetAverageGrade();
         }
+
+        public static Student Find(int ID)
+        {
+
+            StudentDTO SDTO = StudentData.GetStudentById(ID);
+
+            if (SDTO != null)
+            //we return new object of that student with the right data
+            {
+
+                return new Student(SDTO, enMode.Update);
+            }
+            else
+                return null;
+        }
     }
 }
 

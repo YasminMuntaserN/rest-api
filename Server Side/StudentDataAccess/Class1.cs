@@ -115,6 +115,33 @@ namespace StudentDataAccess
             return averageGrade;
         }
 
+        public static StudentDTO GetStudentById(int studentId)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            using (var command = new SqlCommand("SP_GetStudentById", connection))
+            {
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.AddWithValue("@StudentId", studentId);
 
+                connection.Open();
+                using (var reader = command.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        return new StudentDTO
+                        (
+                            reader.GetInt32(reader.GetOrdinal("Id")),
+                            reader.GetString(reader.GetOrdinal("Name")),
+                            reader.GetInt32(reader.GetOrdinal("Age")),
+                            reader.GetInt32(reader.GetOrdinal("Grade"))
+                        );
+                    }
+                    else
+                    {
+                        return null;
+                    }
+                }
+            }
+        }
     }
 }

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using StudentBusinessLayer;
 using StudentDataAccess;
+using static StudentBusinessLayer.Student;
 
 namespace WebApplication1.Controllers
 {
@@ -43,12 +44,37 @@ namespace WebApplication1.Controllers
         [HttpGet("AverageGrade", Name = "GetAverageGrade")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-
         public ActionResult<double> GetAverageGrade()
         {
             //var averageGrade = StudentDataSimulation.StudentsList.Average(student => student.Grade);
             double averageGrade = StudentBusinessLayer.Student.GetAverageGrade();
             return Ok(averageGrade);
+        }
+
+
+
+        [HttpGet("{id}", Name = "GetStudentById")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<StudentDTO> GetStudentById(int id)
+        {
+            if (id < 1)
+            {
+                return BadRequest($"Not accepted ID {id}");
+            }
+            StudentBusinessLayer.Student student = StudentBusinessLayer.Student.Find(id);
+
+            if (student == null)
+            {
+                return NotFound($"Student with ID {id} not found.");
+            }
+
+            //here we get only the DTO object to send it back.
+            StudentDTO SDTO = student.SDTO;
+
+            //we return the DTO not the student object.
+            return Ok(SDTO);
         }
 
     }
