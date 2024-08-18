@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{2403787E-3BC0-46FF-B20C-52BB88779186}|StudentApi.csproj|solutionrelative:controllers\\studentapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2403787E-3BC0-46FF-B20C-52BB88779186}|StudentApi.csproj|c:\\users\\top\\desktop\\rest-api\\server side\\studentapi\\studentapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{2403787E-3BC0-46FF-B20C-52BB88779186}|StudentApi.csproj|C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentApi\\studentapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2403787E-3BC0-46FF-B20C-52BB88779186}|StudentApi.csproj|solutionrelative:studentapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
@@ -47,7 +47,7 @@
               "RelativeDocumentMoniker": "Controllers\\StudentApiController.cs",
               "ToolTip": "C:\\Users\\TOP\\Desktop\\rest-api\\Server Side\\StudentApi\\Controllers\\StudentApiController.cs",
               "RelativeToolTip": "Controllers\\StudentApiController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-18T03:53:24.765Z",
               "EditorCaption": ""
@@ -62,8 +62,7 @@
               "RelativeToolTip": "StudentApi.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-18T03:53:14.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-18T03:53:14.573Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "..\\StudentBussinnes\\Class1.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAuwCUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T03:52:50.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-18T03:52:50.886Z"
             }
           ]
         }

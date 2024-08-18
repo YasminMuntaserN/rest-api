@@ -12,6 +12,9 @@ namespace StudentApiClient
 
             await GetAllStudents();
 
+            await GetPassedStudents();
+
+
         }
 
         static async Task GetAllStudents()
@@ -33,6 +36,36 @@ namespace StudentApiClient
             catch (Exception ex)
             {
                 Console.WriteLine("An Error Accuord :" + ex.Message);
+            }
+        }
+
+        static async Task GetPassedStudents()
+        {
+            try
+            {
+                Console.WriteLine("\n_____________________________");
+                Console.WriteLine("\nFetching passed students...\n");
+                var response = await httpClient.GetAsync("Passed");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var passedStudents = await response.Content.ReadFromJsonAsync<List<Student>>();
+                    if (passedStudents != null && passedStudents.Count > 0)
+                    {
+                        foreach (var student in passedStudents)
+                        {
+                            Console.WriteLine($"ID: {student.Id}, Name: {student.Name}, Age: {student.Age}, Grade: {student.Grade}");
+                        }
+                    }
+                }
+                else if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
+                {
+                    Console.WriteLine("No passed students found.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
             }
         }
 
