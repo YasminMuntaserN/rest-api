@@ -38,6 +38,10 @@ namespace StudentBusinessLayer
             return StudentData.GetAllPassedStudents();
         }
 
+        public static double GetAverageGrade()
+        {
+            return StudentData.GetAverageGrade();
+        }
     }
 }
 

@@ -37,5 +37,19 @@ namespace WebApplication1.Controllers
             }
             return Ok(StudentsList); // Returns the list of students.
         }
+
+
+
+        [HttpGet("AverageGrade", Name = "GetAverageGrade")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+
+        public ActionResult<double> GetAverageGrade()
+        {
+            //var averageGrade = StudentDataSimulation.StudentsList.Average(student => student.Grade);
+            double averageGrade = StudentBusinessLayer.Student.GetAverageGrade();
+            return Ok(averageGrade);
+        }
+
     }
 }

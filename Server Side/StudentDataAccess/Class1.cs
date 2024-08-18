@@ -88,5 +88,33 @@ namespace StudentDataAccess
             }
 
         }
+
+        public static double GetAverageGrade()
+        {
+            double averageGrade = 0;
+
+            using (SqlConnection conn = new SqlConnection(_connectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand("SP_GetAverageGrade", conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    conn.Open();
+
+                    object result = cmd.ExecuteScalar();
+                    if (result != DBNull.Value)
+                    {
+                        averageGrade = Convert.ToDouble(result);
+                    }
+                    else
+                        averageGrade = 0;
+
+                }
+            }
+
+            return averageGrade;
+        }
+
+
     }
 }
