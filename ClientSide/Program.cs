@@ -14,6 +14,7 @@ namespace StudentApiClient
 
             await GetPassedStudents();
 
+            await GetAverageGrade();
 
         }
 
@@ -61,6 +62,30 @@ namespace StudentApiClient
                 else if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
                 {
                     Console.WriteLine("No passed students found.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+        }
+
+        static async Task GetAverageGrade()
+        {
+            try
+            {
+                Console.WriteLine("\n_____________________________");
+                Console.WriteLine("\nFetching average grade...\n");
+                var response = await httpClient.GetAsync("AverageGrade");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var averageGrade = await response.Content.ReadFromJsonAsync<double>();
+                    Console.WriteLine($"Average Grade: {averageGrade}");
+                }
+                else if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
+                {
+                    Console.WriteLine("No students found.");
                 }
             }
             catch (Exception ex)
