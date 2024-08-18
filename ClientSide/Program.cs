@@ -18,6 +18,14 @@ namespace StudentApiClient
 
             await GetStudentById(2);
 
+            var newStudent = new Student { Name = "Mazen Abdullah", Age = 20, Grade = 85 };
+            await AddStudent(newStudent); // Example: Add a new student
+
+            await GetAllStudents();
+
+            await UpdateStudent(2, new Student { Name = "Salma", Age = 22, Grade = 90 }); // Example: Update student with ID 2
+
+            await GetAllStudents();
 
         }
 
@@ -121,6 +129,59 @@ namespace StudentApiClient
                 else if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
                 {
                     Console.WriteLine($"Not Found: Student with ID {id} not found.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+        }
+
+        static async Task AddStudent(Student newStudent)
+        {
+            try
+            {
+                Console.WriteLine("\n_____________________________");
+                Console.WriteLine("\nAdding a new student...\n");
+
+                var response = await httpClient.PostAsJsonAsync("", newStudent);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var addedStudent = await response.Content.ReadFromJsonAsync<Student>();
+                    Console.WriteLine($"Added Student - ID: {addedStudent.Id}, Name: {addedStudent.Name}, Age: {addedStudent.Age}, Grade: {addedStudent.Grade}");
+                }
+                else if (response.StatusCode == System.Net.HttpStatusCode.BadRequest)
+                {
+                    Console.WriteLine("Bad Request: Invalid student data.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+        }
+
+        static async Task UpdateStudent(int id, Student updatedStudent)
+        {
+            try
+            {
+                Console.WriteLine("\n_____________________________");
+                Console.WriteLine($"\nUpdating student with ID {id}...\n");
+                var response = await httpClient.PutAsJsonAsync($"{id}", updatedStudent);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var student = await response.Content.ReadFromJsonAsync<Student>();
+                    Console.WriteLine($"Updated Student: ID: {student.Id}, Name: {student.Name}, Age: {student.Age}, Grade: {student.Grade}");
+                }
+                else if (response.StatusCode == System.Net.HttpStatusCode.BadRequest)
+                {
+                    Console.WriteLine("Failed to update student: Invalid data.");
+                }
+                else if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
+                {
+                    Console.WriteLine($"Student with ID {id} not found.");
                 }
             }
             catch (Exception ex)
