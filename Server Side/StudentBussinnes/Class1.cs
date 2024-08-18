@@ -57,6 +57,45 @@ namespace StudentBusinessLayer
             else
                 return null;
         }
+
+        private bool _AddNewStudent()
+        {
+            //call DataAccess Layer 
+
+            this.ID = StudentData.AddStudent(SDTO);
+
+            return (this.ID != -1);
+        }
+
+        private bool _UpdateStudent()
+        {
+            return StudentData.UpdateStudent(SDTO);
+        }
+
+        public bool Save()
+        {
+            switch (Mode)
+            {
+                case enMode.AddNew:
+                    if (_AddNewStudent())
+                    {
+
+                        Mode = enMode.Update;
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+
+                case enMode.Update:
+
+                    return _UpdateStudent();
+
+            }
+
+            return false;
+        }
     }
 }
 

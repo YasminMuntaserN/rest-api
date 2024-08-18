@@ -143,5 +143,47 @@ namespace StudentDataAccess
                 }
             }
         }
+
+        public static int AddStudent(StudentDTO StudentDTO)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            using (var command = new SqlCommand("SP_AddStudent", connection))
+            {
+                command.CommandType = CommandType.StoredProcedure;
+
+                command.Parameters.AddWithValue("@Name", StudentDTO.Name);
+                command.Parameters.AddWithValue("@Age", StudentDTO.Age);
+                command.Parameters.AddWithValue("@Grade", StudentDTO.Grade);
+                var outputIdParam = new SqlParameter("@NewStudentId", SqlDbType.Int)
+                {
+                    Direction = ParameterDirection.Output
+                };
+                command.Parameters.Add(outputIdParam);
+
+                connection.Open();
+                command.ExecuteNonQuery();
+
+                return (int)outputIdParam.Value;
+            }
+        }
+
+        public static bool UpdateStudent(StudentDTO StudentDTO)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            using (var command = new SqlCommand("SP_UpdateStudent", connection))
+            {
+                command.CommandType = CommandType.StoredProcedure;
+
+                command.Parameters.AddWithValue("@StudentId", StudentDTO.Id);
+                command.Parameters.AddWithValue("@Name", StudentDTO.Name);
+                command.Parameters.AddWithValue("@Age", StudentDTO.Age);
+                command.Parameters.AddWithValue("@Grade", StudentDTO.Grade);
+
+                connection.Open();
+                command.ExecuteNonQuery();
+                return true;
+
+            }
+        }
     }
 }
