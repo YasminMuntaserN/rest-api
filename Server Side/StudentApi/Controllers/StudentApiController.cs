@@ -133,7 +133,29 @@ namespace WebApplication1.Controllers
                 return Ok(student.SDTO);
             else
                 return StatusCode(500, new { message = "Error Updating Student" });
+        }
 
+
+        //here we use HttpDelete method
+        [HttpDelete("{id}", Name = "DeleteStudent")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult DeleteStudent(int id)
+        {
+            if (id < 1)
+            {
+                return BadRequest($"Not accepted ID {id}");
+            }
+
+            // var student = StudentDataSimulation.StudentsList.FirstOrDefault(s => s.Id == id);
+            // StudentDataSimulation.StudentsList.Remove(student);
+
+            if (StudentBusinessLayer.Student.DeleteStudent(id))
+
+                return Ok($"Student with ID {id} has been deleted.");
+            else
+                return NotFound($"Student with ID {id} not found. no rows deleted!");
         }
 
     }

@@ -185,5 +185,22 @@ namespace StudentDataAccess
 
             }
         }
+
+        public static bool DeleteStudent(int studentId)
+        {
+
+            using (var connection = new SqlConnection(_connectionString))
+            using (var command = new SqlCommand("SP_DeleteStudent", connection))
+            {
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.AddWithValue("@StudentId", studentId);
+
+                connection.Open();
+
+                int rowsAffected = (int)command.ExecuteScalar();
+                return (rowsAffected == 1);
+
+            }
+        }
     }
 }
