@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\TOP\\Desktop\\rest-api\\ClientSide\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{66C8C664-359B-4B04-8655-8FC7A1A72284}|ClientSide.csproj|c:\\users\\top\\desktop\\rest-api\\clientside\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66C8C664-359B-4B04-8655-8FC7A1A72284}|ClientSide.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66C8C664-359B-4B04-8655-8FC7A1A72284}|ClientSide.csproj|C:\\Users\\TOP\\Desktop\\rest-api\\ClientSide\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66C8C664-359B-4B04-8655-8FC7A1A72284}|ClientSide.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,35 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\TOP\\Desktop\\rest-api\\ClientSide\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\TOP\\Desktop\\rest-api\\ClientSide\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T05:20:16.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\TOP\\Desktop\\rest-api\\ClientSide\\Student.cs",
-              "RelativeDocumentMoniker": "Student.cs",
-              "ToolTip": "C:\\Users\\TOP\\Desktop\\rest-api\\ClientSide\\Student.cs",
-              "RelativeToolTip": "Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T05:40:16.311Z"
             }
           ]
         }
